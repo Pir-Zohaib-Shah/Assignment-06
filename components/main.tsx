@@ -21,10 +21,10 @@ const roboto_Mono = Roboto_Mono({
 
 const Main = () => {
   return (
-    <center className="">
+    <center>
       <div className="flex justify-center space-x-5 text-[32px] md:text-5xl mt-7 md:relative md:text-left md:mt-44 md:mr-[61px]">
         <div className={roboto.className}>
-          <div className="text-white">Hello i'm</div>
+          <div className="text-white">Hello i&rsquo;m</div>
         </div>
         <div className={pacifico.className}>
           <h1 className="text-[rgb(255,74,38)] ">Zohaib Shah</h1>

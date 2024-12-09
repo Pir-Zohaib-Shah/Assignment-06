@@ -1,5 +1,4 @@
 import React from 'react'
-import { useRouter } from 'next/navigation'
 import Sidebar from '@/components/sidebar'
 import Abouts from '@/components/about'
 

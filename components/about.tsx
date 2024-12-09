@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Abouticon from "@/app/public/about-icon.png";
-import { Roboto, Pacifico, Roboto_Mono } from "@next/font/google";
+import { Roboto, Roboto_Mono } from "@next/font/google";
 import { Button } from "./ui/button";
 import Footer from "./footer";
 
@@ -25,15 +25,16 @@ const Abouts = () => {
         />
         <div className={roboto.className}>
           <div className="text-white mt-5 text-2xl text-center md:text-4xl">
-            {" "}
+            
             My name is Zohaib Shah
             <div className="text-white text-2xl text-center md:text-4xl">
-              I'm a
+            I&rsquo;m a
+
               <span className="text-[rgb(255,74,38)] ml-2">
-                {" "}
-                web developer <div className="text-white inline">&</div>{" "}
+                
+                web developer <div className="text-white inline">&</div>
                 designer
-              </span>{" "}
+              </span>
             </div>
           </div>
           <div className={roboto_Mono.className}>

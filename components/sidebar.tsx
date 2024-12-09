@@ -5,9 +5,7 @@ import { HiHome } from "react-icons/hi2";
 import { IoPersonSharp } from "react-icons/io5";
 import { GrProjects } from "react-icons/gr";
 import { FaPhone } from "react-icons/fa6";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { GoMoveToTop } from "react-icons/go";
 
 
 const Sidebar = () => {

@@ -4,7 +4,7 @@ import Image from "next/image";
 import project_icon from "@/app/public/project-icon.png";
 import Sidebar from "@/components/sidebar";
 import project_1 from "@/app/public/project-1.png";
-import { Roboto, Pacifico, Roboto_Mono } from "@next/font/google";
+import { Roboto_Mono } from "@next/font/google";
 import { Button } from "@/components/ui/button";
 
 const roboto_Mono = Roboto_Mono({
